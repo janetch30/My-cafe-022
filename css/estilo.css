@@ -1,0 +1,183 @@
+body{
+	 background-image:url("../imagenes/fodo.jpg")
+	 color:#000000;
+	 font-family:"Lucida Console", "courier New", monospace;
+	 font-size: 40px;
+}
+p{
+	text-align:justify;
+	font-size: 20px;
+}
+hr{
+	border: 2px solid #000000;
+	/*border-radius es para el terminado de las orillas de la linea. el radio que se expresa en pixeles*/
+	border-radius: 5px
+}
+table,tr,td{
+	border: 3px solid #000000;
+	border-spacing:0px;
+	background-color:FFFFFF;
+	text-align:center;
+	font-size:20px;
+}
+th{
+	background-color:#FFFFFF;
+}
+
+
+ul{
+	listy-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:lower-alpha;
+	list-style-position:inside;
+}
+.pie{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.encabezado{
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+}
+.img-marquee{
+		heigth:400px;
+		width:600px;
+}
+.img-producto{
+	heigth:120px;
+		width:220px;
+}
+*{
+	margin:0px;
+}
+div#top{
+	padding:30px;
+	width:100%;
+    height:70px;
+	/*background-color:#407C46;*/
+	background-image:linear-gradient(#407C46,#FFFFFF)
+}
+div#piedip{
+	/*padding:30px;*/
+	width:100%;
+    height:120px;
+	/*background-color:#407C46;*/
+	background-image:linear-gradient(#FFFFFF,#407C46)
+	/*background-image:radial-gradient(#FFFFFF,#407C46)*/
+	/*background-image*/
+}
+div#principal{
+	width:100%;
+	background-image:background-color(#FFFFFF)
+}
+.caja{
+	height:365px;
+	width:220px;
+	background:#407C46;
+	border: 1px solid #407C46;
+	margin:5px; 
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:6px;
+	font-size:15px;
+}
+.carrousel{
+width:600px;
+margin:auto;
+box-sizing:border-box;
+}
+.conteCarrousel{
+width:100%;
+height:400px;
+overflow:hidden;
+box-sizing:border-box;
+}
+.itemCarrousel{
+position:relative;
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+width:100%;
+height:100%;
+box-sizing:border-box;
+}
+.itemCarrouselArrows{
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:20px;
+box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+cursor:pointer;
+}
+.conteCarrouselControler{
+width:100%;
+justify-content:space-evenly;
+display:flex;
+}
+.conteCarrouselControler>a{
+text-decoration:none;
+font-size:32px;
+color:grey;
+}
+.itemCarrouselArrows>a>i{
+color:white;
+}
+.img-controller{
+height:50px;
+Width:50px;
+}
+
+.caja2{
+height:250px;
+width:700px;
+background:#407C46;
+border: 1px solid #407C46;
+margin:5px;
+color:black;
+text-align:center;
+display:inline-block;
+}
+.caja2-texto{
+padding-top:5px;
+padding-bottom:5px;
+font-size:20px;
+color:wite;
+font-weight:bold;
+}
+.texto2-adicional{
+padding-top:5px;
+font-size:15px;
+}
+font-face{
+	font-family:impact.ttf;
+	src:url("../fonts/nombre de la fuente aqui");
+}
